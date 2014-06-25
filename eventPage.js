@@ -1,5 +1,5 @@
 if (chrome.runtime && chrome.runtime.onStartup) {
-    console.log`('Startup');
+    console.log('Startup');
 }
 
 chrome.commands.onCommand.addListener(function(command) {
